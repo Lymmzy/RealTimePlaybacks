@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#eb4f38</color>
+    <color name="colorPrimaryDark">#da3e27</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- 我的自定义颜色-->
+    <color name="mRed1">#FF9090</color>
+    <color name="mRed2">#FF5050</color>
+    <color name="mRed3">#FF0000</color>
+
+    <color name="mGreen1">#90FF90</color>
+    <color name="mGreen2">#50FF50</color>
+    <color name="mGreen3">#00FF00</color>
+
+    <color name="mBlue1">#9090FF</color>
+    <color name="mBlue2">#5050FF</color>
+    <color name="mBlue3">#0000FF</color>
+
+    <color name="mSyan1">#90FFFF</color>
+    <color name="mSyan2">#50FFFF</color>
+    <color name="mSyan3">#00FFFF</color>
+
+    <color name="mPurple1">#FF90FF</color>
+    <color name="mPurple2">#FF50FF</color>
+    <color name="mPurple3">#FF00FF</color>
+
+    <color name="mYellow1">#FFFF90</color>
+    <color name="mYellow2">#FFFF50</color>
+    <color name="mYellow3">#FFFF00</color>
+
+    <color name="mGray1">#BBBBBB</color>
+    <color name="mGray2">#999999</color>
+    <color name="mGray3">#666666</color>
+
+    <color name="mWhite">#FFFFFF</color>
+    <color name="mBlack">#000000</color>
+    <color name="mBrown">#8B0000</color>
+
+    <color name="bgGray">#dcdcdc</color>
+
+    <color name="firebrick">#b22222</color>
+    <color name="category_txt">#26ddee</color>
+    <color name="red_btn_color_disable">#7fff5454</color>
+    <color name="red_btn_color_pressed">#ffd24242</color>
+    <color name="red_btn_color_normal">#ffff5454</color>
+    <color name="gray">#808080</color>
+    <color name="crimson">#dc143c</color>
+    <color name="goldyellow">#ff9428</color>
 </resources>

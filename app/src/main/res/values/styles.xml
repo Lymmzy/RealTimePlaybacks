@@ -8,4 +8,47 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="search_view">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/mWhite</item>
+        <item name="android:textColorHint">@color/mWhite</item>
+        <item name="android:background">@drawable/sarch</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+    </style>
+
+    <style name="line">
+        <item name="android:background">@color/bgGray</item>
+    </style>
+    <style name="line_vertical" parent="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <style name="line_horizontal" parent="line">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="bigButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/normalButtonHeight</item>
+        <item name="android:paddingLeft">@dimen/largePadding</item>
+        <item name="android:paddingRight">@dimen/largePadding</item>
+        <item name="android:textSize">@dimen/bigButtonTextSize</item>
+        <item name="android:textColor">@color/white_color_selector</item>
+    </style>
+
+    <style name="bigRedButton" parent="bigRedButton">
+        <item name="android:background">@drawable/bg_btn_style_red</item>
+    </style>
+
+    <style name="checkbox" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/selector_checkbox</item>
+    </style>
+
 </resources>

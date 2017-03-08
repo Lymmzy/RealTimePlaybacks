@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
     defaultConfig {
         applicationId "com.lym.realtimeplayback"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -20,10 +20,18 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:23.0.1'
     testCompile 'junit:junit:4.12'
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.cjj.materialrefeshlayout:library:1.3.0'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.github.d-max:spots-dialog:0.7'
+    compile 'com.android.support:support-v4:25.1.0'
 }
